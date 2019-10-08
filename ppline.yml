@@ -1,11 +1,9 @@
-steps:
-  build:
-    -script:
-        echo "mmk"
-  test:
-    -script:
-        echo "mmk"
-  deploy:
-    -script:
-       echo "mmk"  
-
+stages:
+  - name: stage1
+    agent: any
+    steps:
+      - bat: echo "hello"
+  - name: stage2
+    agent: any
+    steps:
+      - bat: echo "hello2"
