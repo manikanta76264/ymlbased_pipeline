@@ -1,8 +1,11 @@
 steps:
   build:
-    
+    -script:
+        echo "mmk"
   test:
-    
+    -script:
+        echo "mmk"
   deploy:
-    
+    -script:
+       echo "mmk"  
 
