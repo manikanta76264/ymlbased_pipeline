@@ -1,0 +1,8 @@
+steps:
+  build:
+    - echo "build"
+  test:
+    - echo "testing"
+  deploy:
+    - echo "testing"
+
